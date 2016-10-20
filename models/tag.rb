@@ -3,12 +3,11 @@ require 'dm-postgres-adapter'
 
 
 
-class Link
+class Tag
 
   include DataMapper::Resource
 
   property :id, Serial
-  property :title, String
-  property :url, String
+  property :label, String
 
 end
